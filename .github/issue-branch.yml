@@ -1,0 +1,6 @@
+branchName: '${issue.number}-${issue.title,}'
+silent: false
+autoCloseIssue: true
+branches:
+  - label: question
+    skip: true
