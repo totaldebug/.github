@@ -1,9 +1,15 @@
 {
     "categories": [
         {
+            "title": "## 💥 Breaking Changes",
+            "labels": [
+                "breaking"
+            ]
+        },
+        {
             "title": "## 🚀 Features",
             "labels": [
-                "feature"
+                "feature", "enhancement"
             ]
         },
         {
@@ -30,7 +36,7 @@
     ],
     "sort": "ASC",
     "template": "${{CHANGELOG}}\n\n<details>\n<summary>Uncategorized</summary>\n\n${{UNCATEGORIZED}}\n</details>",
-    "pr_template": "- ${{TITLE}}\n   - PR: #${{NUMBER}}",
+    "pr_template": "- ${{TITLE}}\n   - PR: #${{NUMBER}} (${{AUTHOR}})",
     "empty_template": "- no changes",
     "transformers": [
         {
