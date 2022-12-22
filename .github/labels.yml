@@ -1,0 +1,67 @@
+- name: "priority/critical"
+  color: "B60205"
+  description: "Critical priority issue that must be resolved immediately"
+
+- name: "priority/urgent"
+  color: "D93F0B"
+  description: "Urgent priority issue that should be resolved before the next release"
+
+- name: "priority/medium"
+  color: "FBCA04"
+  description: "Medium priority issue that needs to be resolved"
+
+- name: "priority/low"
+  color: "0E8A16"
+  description: "Low priority issue that needs to be resolved"
+
+- name: "type/bug"
+  color: "d93f0b"
+  description: "Something isn't working"
+
+- name: "type/docs"
+  color: "02d7e1"
+  description: "Improvements or additions to documentation"
+
+- name: "type/feature"
+  color: "0e8a16"
+  description: "New feature request"
+
+- name: "type/ci"
+  color: "6B914F"
+  description: "CI related changes"
+
+- name: "type/language"
+  color: "FE8357"
+  description: "Changes to language files"
+
+- name: "flag/breaking"
+  color: "000000"
+  description: "A Change that will break current functionality"
+
+- name: "flag/help"
+  color: "008672"
+  description: "Extra assistance is needed to resolve this"
+
+- name: "state/blocked"
+  color: "B60205"
+  description: "Cannot progress because something is blocking it"
+
+- name: "state/planned"
+  color: "0E8A16"
+  description: "A issue that is planned to be implemented"
+
+- name: "state/hold"
+  color: "B60205"
+  description: "Work on this is currently on hold"
+
+- name: "state/review"
+  color: "0525C0"
+  description: "Requires review"
+
+- name: "state/wip"
+  color: "2FBCA0"
+  description: "This is currently being worked on"
+
+- name: "state/wontfix"
+  color: "ffffff"
+  description: "This will not be fixed"
